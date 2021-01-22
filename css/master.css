@@ -1,0 +1,103 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sub_header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.horizontal_list {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+}
+
+.btn_small {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.btn_large {
+ border-radius: 5px;
+ padding: 10px 20px;
+}
+.btn_orange {
+  background-color: #ff5200ba;
+  color: white;
+}
+/* fine regole generali */
+/* inizio header */
+/* top_header */
+.fixed_header {
+  width: 100%;
+  padding: 0 10%;
+  height: 60px;
+  background-color: #b2e6ff61;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.language_header {
+  display: inline-block;
+  height: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  border-right: 1px solid black;
+}
+
+.top_header_right,
+.sub_header_right {
+  float: right;
+  margin-top: 20px;
+}
+#lens {
+  color: #0fa6ed;
+}
+.btn_login {
+  background-color: #f3f3f3;
+  color: #ff5200ba;
+  border: 1px solid #ff5200ba;
+}
+/* fine top header */
+/* sub header */
+.sub_header {
+  height: 60px;
+  margin-top: 60px;
+}
+
+.sub_header img {
+  margin-top: 15px;
+}
+
+
+/* fine header */
+
+
+
+
+
+
+
+
+/* da cancellare */

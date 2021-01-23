@@ -8,6 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  color: #33475b;
 }
 
 .clearfix::after {
@@ -17,7 +18,8 @@ body {
 }
 
 .sub_header,
-.container_banner {
+.container_banner,
+.container_body {
   width: 80%;
   margin: 0 auto;
 }
@@ -48,11 +50,13 @@ a {
 /* fine regole generali */
 /* inizio header */
 /* top_header */
+.height_header {
+  height: 60px;
+}
 .fixed_header {
   width: 100%;
   padding: 0 10%;
-  height: 60px;
-  background-color: #d3f1ff;
+  background-color: #f5f8fa;
   border-bottom: 1px solid black;
   position: fixed;
   top: 0;
@@ -82,11 +86,6 @@ a {
 }
 /* fine top header */
 /* sub header */
-.sub_header {
-  height: 60px;
-  margin-top: 60px;
-}
-
 .sub_header img {
   margin-top: 15px;
 }
@@ -97,13 +96,17 @@ a {
 .banner {
   width: 100%;
   height: 740px;
-  margin-top: -45px;
   background-image: url(../img/jumbotron.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.container_banner {
+  position: relative;
+}
 
 .text_banner {
+  position: absolute;
+  top: 100px;
   width: 50%;
   margin: 50px 0 50px;
 }
@@ -119,15 +122,90 @@ a {
   margin-top: 40px;
   font-size: 80%;
 }
-
-
-
-
-
 /* fine banner */
+/* inizio body */
+.body {
+  width: 100%;
+  background-color: #f5f8fa;
+}
+/* inizio top body */
+.body_top {
+  text-align: center;
+}
+.body_top img {
+  width: 400px;
+}
+.text_top_body {
+  width: 60%;
+  margin: -50px auto 0;
+}
+.text_top_body h2 {
+  font-size: 250%;
+}
+.text_top_body p {
+  line-height: 25px;
+  padding-top: 25px;
+}
+/* fine top body */
+/* inizio body bottom */
+.body_bottom_container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 11px #d2d2d3;
+}
 
+.body_bottom_container.horizondal {
+  width: 100%;
+  margin: 40px 0;
+}
+.content_horizondal {
+  position: relative;
+  padding: 20px 0 60px;
+}
+.horizondal .left {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+.horizondal .right {
+  position: absolute;
+  top: 55px;
+  left: 300px;
+  display: inline-block;
+  width: 48%;
+}
+.content_horizondal .right h3 {
+  font-size: 150%;
+}
+.content_horizondal .right p {
+  margin: 20px 0;
+}
+.content_horizondal .right h4 {
+  position: relative;
+  font-size: 140%;
+}
+.content_horizondal .right h4::after {
+  display: block;
+  position: absolute;
+  left: 200px;
+  top: 12px;
+  width: 65%;
+  height: 1px;
+  content: '';
+  background-color: #33475b;
+}
+.right ul li::before {
+  background-color: orange;
+  border-radius: 100%;
+  color: white;
+}
 
+.body_bottom_container.float {
+  float: left;
+  width: 33.3%;
+}
 
+/* fine body */
 
 
 

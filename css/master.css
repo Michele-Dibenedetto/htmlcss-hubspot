@@ -19,7 +19,9 @@ body {
 
 .sub_header,
 .container_banner,
-.container_body {
+.container_body,
+.container_data,
+.container_customers {
   width: 80%;
   margin: 0 auto;
 }
@@ -49,10 +51,19 @@ a {
 }
 
 h2 {
-  font-size: 250%;
+  font-size: 255%;
 }
 h3 {
   font-size: 150%;
+}
+
+p {
+  line-height: 25px;
+  font-size: 110%;
+}
+
+span {
+  font-size: 80%;
 }
 /* fine regole generali */
 /* inizio header */
@@ -127,7 +138,6 @@ h3 {
 .text_banner span {
   display: block;
   margin-top: 40px;
-  font-size: 80%;
 }
 /* fine banner */
 /* inizio body */
@@ -271,10 +281,91 @@ h3 {
 /* fine colonne */
 /* fine body bottom */
 /* fine body */
-/* inizio middle main */
+/* inizio data */
+.data {
+  width: 100%;
+  background-image: linear-gradient(to right, #42b3ba, #39dad5);
+  text-align: center;
+  color: white;
+}
 
+.container_data h2 {
+  padding: 20px 0 20px;
+}
 
+.grids {
+  padding: 40px 0 100px;
+}
+.block {
+  float: left;
+  width: 25%;
+  padding: 20px 0;
+}
+.row_1 .block {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.row_2 .block {
+  border-right: 1px solid white;
+}
+.block.right_grids {
+  border-right: none;
+}
 
+.block img {
+  height: 33px;
+}
+/* fine data */
+/* inizio customers */
+.container_customers {
+  position: relative;
+  padding-bottom: 50px;
+}
+.brend {
+  margin: 40px 0 80px;;
+}
+.text_brend {
+  display: inline-block;
+  width: 25%;
+  padding-left: 100px;
+}
+.text_brend h2 {
+  font-size: 300%;
+  margin-bottom: 20px;
+}
+.text_brend p span {
+  font-weight: 900;
+}
 
-/* fine middle main */
+.image_brend {
+  float: right;
+  padding-right: 75px;
+}
+.image_brend img {
+  height: 30px;
+  width: 120px;
+  margin: 20px 20px;
+}
+/* inizio invite_customers */
+.invite_customers {
+  width: 40%;
+}
+.invite_customers p {
+  margin: 30px 0 60px;
+}
+.invite_customers span {
+  margin-top: 60px;
+  display: block;
+}
+.invite_customers img {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  width: 340px;
+  height: 400px;
+}
+/* fine invite_customers */
+/* fine customers */
+/* fine main */
+/* inizio footer */
 /* da cancellare */

@@ -21,7 +21,8 @@ body {
 .container_banner,
 .container_body,
 .container_data,
-.container_customers {
+.container_customers,
+.container_footer {
   width: 80%;
   margin: 0 auto;
 }
@@ -368,4 +369,69 @@ span {
 /* fine customers */
 /* fine main */
 /* inizio footer */
+footer {
+  width: 100%;
+  background-color: #2d3e50;
+  color: #cacaca;
+}
+/* inizio menu */
+.menu_footer ul {
+  display: inline-block;
+  width: 23%;
+  list-style: none;
+}
+.menu_footer ul:not(.support) {
+  position: relative;
+  bottom: 68px;
+}
+.menu_footer li {
+  line-height: 35px;
+}
+.menu_footer li:first-child a {
+  line-height: 75px;
+  color: white;
+  font-weight: 900;
+}
+.menu_footer a,
+.menu_footer i {
+  color: #cacaca;
+}
+.menu_footer .btn_contact {
+  background-color: #cacaca;
+  color: #2d3e50;
+}
+.menu_footer i {
+  margin-right: 25px;
+}
+/* fine menu */
+/* inizio languages */
+.languages {
+  text-align: center;
+  position: relative;
+  margin: 50px 0 20px;
+}
+.languages span {
+  font-size: 110%;
+  margin-right: 20px;
+}
+.container_footer hr {
+  display: block;
+  border-color: #cacaca;
+}
+/* fine languages */
+/* inizio privacy */
+.privacy {
+  padding: 40px 0;
+}
+.copyright {
+  display: inline-block;
+}
+.privacy_police {
+  float: right;
+}
+.privacy_police a {
+  color: #cacaca;
+  margin-left: 20px;
+}
+/* fine footer */
 /* da cancellare */
